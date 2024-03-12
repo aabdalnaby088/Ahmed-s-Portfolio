@@ -1,0 +1,121 @@
+.projectsHeader::after
+{
+        content: 'P';
+            position: absolute;
+            right: 53%;
+            bottom: -20%;
+            font-size: 80px;
+            color: rgba(128, 128, 128, 0.208);
+}
+
+
+.weatherHeader::after {
+    content: '01';
+    position: absolute;
+    right: 65%;
+    bottom: -20%;
+    font-size: 80px;
+    color: rgba(128, 128, 128, 0.208);
+}
+
+
+.GameHeader::after {
+    content: '02';
+    position: absolute;
+    right: 65%;
+    bottom: -20%;
+    font-size: 80px;
+    color: rgba(128, 128, 128, 0.208);
+}
+
+
+.CineChillHeader::after {
+    content: '03';
+    position: absolute;
+    right: 65%;
+    bottom: -20%;
+    font-size: 80px;
+    color: rgba(128, 128, 128, 0.208);
+}
+
+
+.FreshCartHeader::after {
+    content: '04';
+    position: absolute;
+    right: 65%;
+    bottom: -20%;
+    font-size: 80px;
+    color: rgba(128, 128, 128, 0.208);
+}
+
+.ProjectRow
+{
+    background-color: #faf8ff;
+}
+
+@media screen and (max-width: 560px) {
+    .projectsHeader::after
+    {
+        right: 63%;
+    }
+    .weatherHeader{
+        font-size: 40px;
+    }
+    .weatherHeader::after {
+        right: 80%;
+        bottom: -20%;
+            font-size: 70px;
+    }
+
+.GameHeader{
+    font-size: 35px;
+}
+
+    .GameHeader::after {
+        right: 80%;
+        bottom: -20%;
+            font-size: 70px;
+    }
+
+    
+.CineChillHeader{
+    font-size: 35px;
+}
+
+    .CineChillHeader::after {
+        right: 80%;
+        bottom: -20%;
+            font-size: 70px;
+    }
+
+
+.FreshCartHeader{
+    font-size: 35px;
+}
+
+    .FreshCartHeader::after {
+        right: 80%;
+        bottom: -20%;
+            font-size: 70px;
+    }
+
+}
+
+.layer {
+    opacity: 0;
+    background-color: #4458dc;
+    transition: all 0.6s;
+}
+
+.layer:hover{
+    opacity: 0.7;
+}
+
+
+.link {
+    color: white ;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,79 @@
+.AboutSection{
+    background-color: #faf8ff;
+    /* height: 90vh; */
+}
+
+
+.AboutHeader::after{
+    content: 'A';
+    position: absolute;
+        right: 58%;
+        bottom: -20%;
+        font-size: 80px;
+        color: rgba(128, 128, 128, 0.208);
+}
+
+@media screen and (max-width: 560px) {
+.btns{
+    gap: 10px;
+}
+.btns button
+{
+    padding: 5px 12px;
+}
+    .AboutSection{
+        height: auto !important;
+    }
+    .AboutHeader::after {
+        right: 70%;
+        bottom: -20%;
+        font-size: 80px;
+    }
+}
+
+.mailBtn {
+    color: white;
+    border: none;
+    border-radius: 8px;
+    background-color: #4458dc;
+    width: max-content;
+    white-space: nowrap;
+    padding: 9px 20px;
+    transition: all 0.6s;
+}
+
+.mailBtn:hover {
+
+    transform :scale(1.05) translateY(-2px) ; 
+
+}
+
+
+
+.linkedInBtn
+{
+    color: white;
+        border: none;
+        border-radius: 8px;
+        background-color: #854fee;
+        width: max-content;
+        white-space: nowrap;
+        padding: 9px 20px;
+        transition: all 0.6s;
+}
+
+.linkedInBtn:hover{
+    transform: scale(1.05) translateY(-2px);
+    
+}
+
+
+
+.link {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
