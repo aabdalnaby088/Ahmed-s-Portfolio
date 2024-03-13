@@ -24,7 +24,9 @@ export default function Projects() {
                         <img src={weather} className='w-100 rounded' alt="Weather App" />
                         <div className={`${styles.layer} position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center text-white rounded`}>
                             <Link className= {`${styles.link}`}
-                            to="/https://aabdalnaby073.github.io/WeatherApp/">
+                            to="https://aabdalnaby073.github.io/WeatherApp/"
+                                target="_blank"
+                            >
                                 <i className="fa-solid fa-link fa-3x"></i>
                             </Link>                 
                         </div>
