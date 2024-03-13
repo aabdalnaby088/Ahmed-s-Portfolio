@@ -24,7 +24,7 @@ export default function Projects() {
                         <img src={weather} className='w-100 rounded' alt="Weather App" />
                         <div className={`${styles.layer} position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center text-white rounded`}>
                             <Link className= {`${styles.link}`}
-                            to="https://aabdalnaby073.github.io/WeatherApp/">
+                            to="/https://aabdalnaby073.github.io/WeatherApp/">
                                 <i className="fa-solid fa-link fa-3x"></i>
                             </Link>                 
                         </div>
@@ -41,7 +41,7 @@ export default function Projects() {
                         <img src={game} className='w-100 rounded' alt="Game App" />
                         <div className={`${styles.layer} position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center text-white rounded`}>
                             <Link className={`${styles.link}`}
-                                to="https://aabdalnaby088.github.io/GameGlyphic/">
+                                to="/https://aabdalnaby088.github.io/GameGlyphic/">
                                 <i className="fa-solid fa-link fa-3x"></i>
                             </Link>
                         </div>
