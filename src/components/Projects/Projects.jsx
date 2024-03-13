@@ -43,8 +43,7 @@ export default function Projects() {
                         <img src={game} className='w-100 rounded' alt="Game App" />
                         <div className={`${styles.layer} position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center text-white rounded`}>
                             <a className={`${styles.link}`}
-                                to="https://aabdalnaby088.github.io/GameGlyphic/"
-                                
+                                href="https://aabdalnaby088.github.io/GameGlyphic/"
                                 >
                                 <i className="fa-solid fa-link fa-3x"></i>
                             </a>
