@@ -23,12 +23,11 @@ export default function Projects() {
                     <div className="ProjectImg position-relative my-3 rounded">
                         <img src={weather} className='w-100 rounded' alt="Weather App" />
                         <div className={`${styles.layer} position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center text-white rounded`}>
-                            <Link className= {`${styles.link}`}
-                            to="https://aabdalnaby073.github.io/WeatherApp/"
-                                target="_blank"
+                            <a className= {`${styles.link}`}
+                            href="https://aabdalnaby073.github.io/WeatherApp/"
                             >
                                 <i className="fa-solid fa-link fa-3x"></i>
-                            </Link>                 
+                            </a>                 
                         </div>
                     </div>
                 </div>
@@ -94,10 +93,10 @@ export default function Projects() {
                     <div className="ProjectImg position-relative my-3 rounded">
                         <img src={CineChil} className='w-100 rounded' alt="Game App" />
                         <div className={`${styles.layer} position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center text-white rounded`}>
-                            <Link className={`${styles.link}`}
-                                to="https://aabdalnaby088.github.io/CineChill-MoviesSPA/">
+                            <a className={`${styles.link}`}
+                                href="https://aabdalnaby088.github.io/CineChill-MoviesSPA/">
                                 <i className="fa-solid fa-link fa-3x"></i>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -117,10 +116,10 @@ export default function Projects() {
                     <div className="ProjectImg position-relative my-3 rounded">
                         <img src={freshCart} className='w-100 rounded' alt="Game App" />
                         <div className={`${styles.layer} position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center text-white rounded`}>
-                            <Link className={`${styles.link}`}
-                                to="https://aabdalnaby088.github.io/FreshCart-Ecommerce/">
+                            <a className={`${styles.link}`}
+                                href="https://aabdalnaby088.github.io/FreshCart-Ecommerce/">
                                 <i className="fa-solid fa-link fa-3x"></i>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>
