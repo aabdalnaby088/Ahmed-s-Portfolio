@@ -161,7 +161,7 @@ export default function Projects() {
 
                 <div className="col-lg-5">
                     <div className="ProjectImg position-relative my-3 rounded">
-                        <img src={SnapGram} className='w-100 rounded' alt="Game App" />
+                        <img src={SnapGram} className='w-100 rounded' alt="Game Application" />
                         <div className={`${styles.layer} position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center text-white rounded`}>
                             <a className={`${styles.link}`}
                                 href="https://aabdalnaby088.github.io/SnapGram/">
