@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Ahmed-s-Portfolio/static/css/main.9fb83734.css",
-    "main.js": "/Ahmed-s-Portfolio/static/js/main.cee1d97b.js",
+    "main.css": "/Ahmed-s-Portfolio/static/css/main.320b7658.css",
+    "main.js": "/Ahmed-s-Portfolio/static/js/main.ed771897.js",
     "static/js/453.9137fe92.chunk.js": "/Ahmed-s-Portfolio/static/js/453.9137fe92.chunk.js",
     "static/media/CineChill.png": "/Ahmed-s-Portfolio/static/media/CineChill.909314bf47221aa6b1c6.png",
+    "static/media/SnapGram.png": "/Ahmed-s-Portfolio/static/media/SnapGram.147b03ee55111c9907bc.png",
     "static/media/FreshCart.png": "/Ahmed-s-Portfolio/static/media/FreshCart.bbfc3bde3fd9c3638392.png",
     "static/media/Game.png": "/Ahmed-s-Portfolio/static/media/Game.83dc63104ce471e5b789.png",
     "static/media/fa-solid-900.ttf": "/Ahmed-s-Portfolio/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
@@ -18,12 +19,12 @@
     "static/media/fa-v4compatibility.ttf": "/Ahmed-s-Portfolio/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
     "static/media/fa-v4compatibility.woff2": "/Ahmed-s-Portfolio/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/Ahmed-s-Portfolio/index.html",
-    "main.9fb83734.css.map": "/Ahmed-s-Portfolio/static/css/main.9fb83734.css.map",
-    "main.cee1d97b.js.map": "/Ahmed-s-Portfolio/static/js/main.cee1d97b.js.map",
+    "main.320b7658.css.map": "/Ahmed-s-Portfolio/static/css/main.320b7658.css.map",
+    "main.ed771897.js.map": "/Ahmed-s-Portfolio/static/js/main.ed771897.js.map",
     "453.9137fe92.chunk.js.map": "/Ahmed-s-Portfolio/static/js/453.9137fe92.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fb83734.css",
-    "static/js/main.cee1d97b.js"
+    "static/css/main.320b7658.css",
+    "static/js/main.ed771897.js"
   ]
 }
