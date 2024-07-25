@@ -99,7 +99,29 @@
             font-size: 70px;
     }
 
+.SnapGramHeader {
+    font-size: 35px;
 }
+
+.SnapGramHeader::after {
+    right: 80%;
+    bottom: -20%;
+    font-size: 70px;
+}
+
+
+}
+.SnapGramHeader::after {
+    content: '05';
+    position: absolute;
+    right: 65%;
+    bottom: -20%;
+    font-size: 80px;
+    color: rgba(128, 128, 128, 0.208);
+}
+
+
+
 
 .layer {
     opacity: 0;

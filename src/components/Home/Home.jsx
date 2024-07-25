@@ -6,7 +6,7 @@ import { TypeAnimation } from 'react-type-animation'
 export default function Home() {
 
     const onButtonClick = () => {
-        const pdfUrl = "https://drive.google.com/file/d/1Hv8dj8st8iUxmUPTBSdfOClJiPeNyZy3/view?usp=sharing";
+        const pdfUrl = "https://drive.google.com/file/d/18uYf7XZvqoOhGSoNhWAGJhkXIw_YMUAV/view?usp=sharing";
         const link = document.createElement("a");
         link.href = pdfUrl;
         link.click();

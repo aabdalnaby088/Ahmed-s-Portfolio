@@ -4,6 +4,8 @@ import CineChil from '../../assets/CineChill.png'
 import weather from '../../assets/weather.png'
 import game from '../../assets/Game.png'
 import freshCart from '../../assets/FreshCart.png'
+import SnapGram from '../../assets/SnapGram.png'
+
 import { Link } from 'react-router-dom'
 export default function Projects() {
     return (
@@ -141,6 +143,34 @@ export default function Projects() {
                         </p>
                     </div>
                 </div>
+            </div>
+
+            <div className={`row mx-0 my-4 px-4 ${styles.ProjectRow}`}>
+
+
+                <div className="col-lg-7">
+                    <div className="ProjectDesc">
+                        <h3 className={`titles position-relative ${styles.SnapGramHeader} my-3 text-center`}>SnapGram</h3>
+                        <p className='text-desc p-4'>
+                            SnapGram is a new social media app that is easy to use and full of features. Built with React.js, Appwrite, React Query, TypeScript, Shadcn, and Tailwind CSS, SnapGram is fast, responsive, and looks great. Our strong authentication system keeps your account secure and private. On the Explore Page, you can discover posts and see top creators. You can like and save posts, and manage them on special pages. Each post has its own detailed page with related posts to keep you engaged.
+
+                            On your Profile Page, you can see all your liked posts and edit your profile. You can also browse and explore other users' profiles and posts. Creating a post is simple with our user-friendly Create Post Page, which includes easy file management and a drag-and-drop feature. You can edit your posts anytime. Our responsive design with a bottom bar makes it feel like a mobile app, and React Query helps with fast and efficient data loading. Using Appwrite as our backend service, SnapGram makes backend development easy with features like authentication, database management, and file storage.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="col-lg-5">
+                    <div className="ProjectImg position-relative my-3 rounded">
+                        <img src={SnapGram} className='w-100 rounded' alt="Game App" />
+                        <div className={`${styles.layer} position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center text-white rounded`}>
+                            <a className={`${styles.link}`}
+                                href="https://aabdalnaby088.github.io/SnapGram/">
+                                <i className="fa-solid fa-link fa-3x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
 
